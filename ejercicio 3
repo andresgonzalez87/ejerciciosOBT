@@ -1,0 +1,6 @@
+#Elercicio para calcular IMC
+
+peso = float(input("Ingrese su peso es kg: "))
+altura = float(input("Ingrese su altura en metros: "))
+imc = round(peso / (altura ** 2), 2)
+print("Su indice de masa corporal es de " , imc)
