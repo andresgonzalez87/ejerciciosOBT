@@ -1,0 +1,15 @@
+# Función para determinar si el año es bisiesto o no
+
+def tipoDeAño(año): 
+    if año % 4 == 0:
+        print("año común")
+    elif año % 100 ==0:
+        print("año bisiesto")
+    elif año % 400 == 0:
+        print("año común")
+    elif año < 1582:
+        print("No dentro del período del calendario gregoriano")
+    else:
+        print("año común")
+
+tipoDeAño(año=int(input("Introduzca el año: ")))
