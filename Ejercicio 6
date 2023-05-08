@@ -1,0 +1,10 @@
+class Vehiculo:
+    color = "negro"
+    ruedas = 4
+    puertas = 4
+class Coche(Vehiculo):
+    velocidad = 200
+    cilindrada = 5
+
+coche = Coche
+print(coche)
