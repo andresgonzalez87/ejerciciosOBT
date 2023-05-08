@@ -1,0 +1,15 @@
+class Alumno:
+    nombre = ""
+    nota = ""
+    def inicializar(self):
+        nombre = input("Ingrese en nombre del alumno: ")
+        nota = float(input("Ingrese la nota: "))
+        if nota > 7:
+            print("Alumno", nombre,", nota",nota,"aprobado")
+        else:
+            print("Alumno", nombre,", nota",nota,"desaprobado")
+    
+alumno = Alumno()
+alumno.inicializar()
+print(alumno)
+        
