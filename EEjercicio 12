@@ -1,0 +1,10 @@
+lista = []
+def miFuncion():
+    pais = input("ingrese un pais, fin = x: ")
+    while pais != "x":
+        lista.append(pais)
+        pais = input("ingrese otro pais, fin = x: ")
+    else:
+        lista.sort()
+        print(lista)
+miFuncion()    
